@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+ 
 :root{
     --poppins-font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --dark-color: #0a0a0a;
-    --red-color: #f64445;
+    --red-color: #e65c5c;
     --light-color: #fff;
     --grey-color: #505050;
     --yellow-color: #f2c10e;
@@ -23,8 +23,8 @@ body{
     font-size: 1.7rem;
     min-height: 100vh;
     background: var(--red-color);
-    background: -o-linear-gradient(281deg, #f64445 0%, #611cac 100%);
-    background: linear-gradient(169deg, #f64445 0%, #611cac 100%);
+    background: -o-linear-gradient(281deg, #e65c5c 0%, #bf8ff1 100%);
+    background: linear-gradient(169deg, #ee5c5c 0%, #c396f3 100%);
     line-height: 1.6;
     font-family: var(--poppins-font);
     display: -webkit-box;
@@ -249,7 +249,7 @@ img{
     font-size: 1.7rem;
 }
 .powerstats li > span{
-    color: var(--yellow-color);
+    color: var(--light-color);
     font-weight: 700;
 }
 /* biography */

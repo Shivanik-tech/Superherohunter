@@ -13,5 +13,4 @@
 - This page will show a lot of information about the superhero like their name, photo, powerstats, bio .
 
 ###### My favourite superheroes Page
-- It will list of all the favourite superheroes. and each superheros have remove from favourites button, 
-clicking on which will remove that superhero from the list.
+- It will list of all the favourite superheroes. and each superheros have remove from favourites button, clicking on which will remove that superhero from the list.

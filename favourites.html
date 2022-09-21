@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="https://thumbs.dreamstime.com/b/awesome-super-hero-logo-template-ready-to-use-144883183.jpg" type="image/gif">
+
+
+    <!-- Loading stylesheets -->
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/761d42c757.js" crossorigin="anonymous"></script>
+
+    <title>Superheroes</title>
+</head>
+
+<body style="overflow:scroll;">
+    <div id="snackbar"></div>
+    <!-- NAVIGATION BAR -->
+    <header>
+        <a href="index.html">
+            <div class="nav-left">
+                <img id="logo" src="https://thumbs.dreamstime.com/b/awesome-super-hero-logo-template-ready-to-use-144883183.jpg" width="50px">
+                <div id="logo-text">
+                    <h1 style="font-size:30px">SUPERHERO HUNTER</h1>
+                </div>
+            </div>
+        </a>
+
+        <!-- Right navbar for Home and Favourite page -->
+
+        <div class="nav-right">
+            <a href="index.html">
+                <div style="font-size:30px">Home</div>
+            </a>
+            <a href="favourites.html">
+                <div style="font-size:30px">Favourites Page</div>
+            </a>
+        </div>
+    </header>
+
+    <main id="main" style="overflow-y: hidden ">
+
+        <!-- Will add favourite cart from js file -->
+        <div id="fav-card">
+        </div>
+    </main>
+
+    <script src="scripts/favourites.js"></script>
+</body>
+
+</html>

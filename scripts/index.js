@@ -29,7 +29,7 @@ inputName.onkeyup = function () {
 }
 
 function createCard(data) {
-    if (data.response === 'error') {
+    if (data.response == 'error') {
         console.log('error',data, data.response);
 
         //Displaying a warnning msg, if search name is not match with present data 

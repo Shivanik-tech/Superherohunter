@@ -100,7 +100,7 @@ body:after {
   width                 : 120%;
   height                : 120%;
   background            : url('https://static3.cbrimages.com/wordpress/wp-content/uploads/2021/05/MCU-Spider-Man-Sony-Kraven.jpg');
-  background-size       : contain;
+  background-size       : cover;
   background-repeat: no-repeat;
 }
 

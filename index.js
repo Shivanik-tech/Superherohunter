@@ -18,7 +18,7 @@ search.onkeyup = function () {
   var searchname = search.value;
   if (searchname !== "") {
     fetch(
-      "https://superheroapi.com/api.php/ 3328323083897178/search/" +
+      "https://superheroapi.com/api.php/2216416201855642/search/" +
         searchname.trim()
     )
       .then((response) => response.json())
@@ -52,7 +52,7 @@ search.onkeyup = function () {
 
 // displaying the hero details on screen 
 function loadDetails(heroid) {
-  fetch(`https://superheroapi.com/api.php/ 3328323083897178/${heroid}`)
+  fetch(`https://superheroapi.com/api.php/2216416201855642/${heroid}`)
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
